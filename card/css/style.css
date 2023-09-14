@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+	background: #FEFCF9;
+}
+
+.card_wrap {
+	max-width: 300px;
+	width: 100%;
+	margin: 100px auto;
+}
+
+.card_item {
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 0 0.05rem rgba(8,60,130,.06), 0 0 1.25rem rgba(30,34,40,.04);
+    background: #1D1D1D;
+}
+
+.card_item img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.card_item h2 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.card_item h3 {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.card_item p {
+	font-size: 15px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.social_icon a {
+	font-size: 18px;
+	margin-right: 20px;
+	margin-top: 20px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.social_icon a:hover {
+	transform: translateY(-5px);
+}
+
+.color_one {
+	color: #5daed5;
+}
+
+.color_two {
+	color: #4470cf;
+}
+
+.color_three {
+	color: #e94d88;
+}
